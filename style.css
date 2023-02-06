@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: #ffffff;
     background-color: #000000;
     padding-left: 40px;
@@ -7,9 +7,9 @@ body {
     }
 
 .body1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: #ffffff;
-    background-color: #222222;
+    background-color: #535353;
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -91,15 +91,20 @@ p {
     width: 500px;
     height: 600px;
     overflow: auto;
-    background-color: #525252;
+    background-color: white;
     display: inline-block;
     border: 1px solid black;
     border-radius: 40px;
-    box-shadow: 2px 2px 5px #0d538b;
+}
+
+.jk1:hover {
+    border: 1px solid black;
+    border-radius: 40px;
+    box-shadow: 2px 2px 5px #ffffff;
 }
 
 h2 {
-    color: white;
+    color: black;
 }
 
 a {
@@ -108,7 +113,7 @@ a {
     text-align: center;
 }
 
-h3:hover {
+h2:hover {
     text-decoration: underline;
 }
 
